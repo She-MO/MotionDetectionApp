@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MotionDetector&lt;Img, Contour, DetectedObj, objTracker&gt;">
+    <Position X="0.75" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAAQAIAAAAE=</HashCode>
+      <FileName>MotionDetector.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectTracker&lt;DetectedObj, Point&gt;">
+    <Position X="5.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gBIAAABAAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectTracker.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DetectedObject_OpenCV">
+    <Position X="9.75" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>DetectedObject_OpenCV.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotionDetector_OpenCV">
+    <Position X="0.5" Y="4" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>MotionDetector_OpenCV.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectTracker_OpenCV">
+    <Position X="6.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABAAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectTracker_OpenCV.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DetectedObject&lt;Contour, Rectangle, Point&gt;">
+    <Position X="9.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAQACAAEEAAAAACAAAAAAIAAAAAAAAAoAAIAAAA=</HashCode>
+      <FileName>DetectedObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
